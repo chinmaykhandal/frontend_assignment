@@ -1,0 +1,30 @@
+*{
+    margin-left: 1%;
+    margin-top: 0%;
+}
+.title{   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.details{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: green;
+    font-weight: 500;
+}
+
+@media all and (max-width: 1000px)
+{
+    hr{
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 500px)
+{
+    hr{
+        width: 300px;
+    }
+}
+
